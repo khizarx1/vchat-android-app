@@ -9,18 +9,33 @@ import { Platform } from 'react-native';
 
 export const Colors = {
   light: {
-    text: '#000000',
-    background: '#ffffff',
-    backgroundElement: '#F0F0F3',
-    backgroundSelected: '#E0E1E6',
-    textSecondary: '#60646C',
+    text: '#0A1F1A',
+    background: '#FFFFFF',
+    backgroundElement: '#E3F5EE',
+    backgroundSelected: '#D2EDE3',
+    textSecondary: '#4F6B62',
+    // Accent = the bright seagreen we use for unread badges, ticks, active states.
+    accent: '#16C79A',
+    accentSoft: 'rgba(22, 199, 154, 0.14)',
+    onAccent: '#ffffff',
+    online: '#1FD18A',
+    // A translucent card surface used as the glass fallback on Android/web.
+    glassFallback: 'rgba(22, 199, 154, 0.08)',
+    separator: 'rgba(20, 80, 65, 0.12)',
   },
   dark: {
-    text: '#ffffff',
-    background: '#000000',
-    backgroundElement: '#212225',
-    backgroundSelected: '#2E3135',
-    textSecondary: '#B0B4BA',
+    text: '#EAFBF5',
+    // A deep seagreen-tinted dark, brighter and warmer than pure black.
+    background: '#0B1A16',
+    backgroundElement: '#16302A',
+    backgroundSelected: '#1F4339',
+    textSecondary: '#8FB6AB',
+    accent: '#2EE6B6',
+    accentSoft: 'rgba(46, 230, 182, 0.18)',
+    onAccent: '#06251D',
+    online: '#2EE6B6',
+    glassFallback: 'rgba(46, 230, 182, 0.12)',
+    separator: 'rgba(143, 182, 171, 0.20)',
   },
 } as const;
 
